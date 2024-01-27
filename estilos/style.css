@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/*
+Paleta de Cores
+rosa - #ffcdd5
+azul - #8fe7fd
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-image:linear-gradient(to top, #8fe7fd, #ffcdd5);
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+div#principal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    background-color: aliceblue;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    transform: translate(-50%, -50%);
+}
+div#principal > h1{
+    text-align: center;
+    padding: 50px;
+}
+
+div#botao1{
+    text-align: center;
+    font-size: 1.5em;
+    display: block;
+    background-color: red;
+    
+    margin: 30px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.418);
+}
+
+div#botao1:hover{
+    background-color: blue;
+}
+
+div#botao2{
+    text-align: center;
+    font-size: 1.5em;
+    display: block;
+    background-color: red;
+    margin: 30px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.418);
+}
+
+div#botao2:hover{
+    background-color: blue;
+}
