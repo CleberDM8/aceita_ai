@@ -1,1 +1,33 @@
 @charset "UTF-8";
+
+/* Typical device breakpoints
+
+pequenas telas: ate 600px
+celular: de 600px ate 768px
+tablet: 768px ate 992px
+desktop: 992px ate 1200px
+grandes telas: acima de 1200px
+
+*/
+
+@media screen and (min-width: 830px)  {
+
+    div#principal{
+        width: 800px;
+        height: 40vh;
+    }
+
+    div#botao1{
+        display: inline-block;
+        margin: 50px 30px 0px 60px ;
+        width: 300px;
+    }
+
+    div#botao2{
+        display: inline-block;
+        width: 300px;
+    }   
+}
+
+
+    
