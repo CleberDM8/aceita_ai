@@ -37,6 +37,7 @@ div#principal{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
     transform: translate(-50%, -50%);
 }
+
 div#principal > h1{
     text-align: center;
     padding: 50px;
