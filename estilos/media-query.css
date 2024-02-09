@@ -26,6 +26,7 @@ grandes telas: acima de 1200px
     div#botao2{
         display: inline-block;
         width: 300px;
+        transform: translate( 8px, 15px);
     }   
 }
 
