@@ -31,7 +31,11 @@ grandes telas: acima de 1200px
         width: 300px;
         
         transform: translate(3%, 14%);
-    }   
+    }  
+
+    div#botao2:hover{
+        background-color: #ffcdd5;
+    } 
 }
 
 
