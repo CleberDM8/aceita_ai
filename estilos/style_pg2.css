@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+/*
+footer -  #bdebf7
+*/
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -8,7 +12,7 @@
 }
 
 body{
-    background-image: linear-gradient(to top, #8fe7fd, #ffcdd5 45%);
+    background-image: linear-gradient(to top, #ADCCFF, #FAC3FF 45%);
     height: 100vh;
     width: 100vw;
 }
@@ -40,4 +44,21 @@ div#principal_pg2 > img{
 div#principal_pg2 > p{
     text-align: center;
     padding: 50px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    padding: 5px;
+    background-color: #8fe7fd00;
+    text-align: center; 
+    
+}
+
+footer > a > img{
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
 }
