@@ -9,6 +9,12 @@ desktop: 992px ate 1200px
 grandes telas: acima de 1200px
 
 */
+*{
+    font-family: "Dancing Script", Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 @media screen and (min-width: 830px) {
 
