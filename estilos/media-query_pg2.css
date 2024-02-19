@@ -41,4 +41,27 @@ grandes telas: acima de 1200px
     div#principal_pg2 > p{
         text-align: center;
     }
+    
+    section#rede_social{
+        text-align: left;
+    }
+
+    section#rede_social > a > img{
+        margin: 10px;
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: #8fe7fd00; 
+        border-radius: 50px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.589);
+        
+    }
+
+    section#rede_social img:hover{
+        border: 2px solid white;
+        
+        transition: transform 0.3s;
+        transform: translate(2px, -2px);
+    
+    }
 }
