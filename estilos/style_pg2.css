@@ -46,10 +46,13 @@ div#principal_pg2 > p{
     padding: 50px;
 }
 
+section#rede_social{
+    text-align: center;
+}
+
 section#rede_social > a > img{
-    text-align: left;
     margin: 10px;
-    display: block;
+    display: inline-block;
     width: 50px;
     height: 50px;
     background-color: #8fe7fd00; 
@@ -62,7 +65,7 @@ section#rede_social img:hover{
     border: 2px solid white;
     
     transition: transform 0.3s;
-    transform: translate(2px, -2px);
+    transform: translate(0px, 2px);
 
 }
 
