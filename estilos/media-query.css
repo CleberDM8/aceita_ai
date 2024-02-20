@@ -30,7 +30,7 @@ grandes telas: acima de 1200px
         display: inline-block;
         width: 300px;
         
-        transform: translate(3%, 14%);
+        transform: translate( 3%, 26%);
     }  
 
     div#botao2:hover{

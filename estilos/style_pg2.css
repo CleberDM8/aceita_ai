@@ -12,6 +12,7 @@ footer -  #bdebf7
 }
 
 body{
+    overflow: hidden;
     background-image: linear-gradient(to top, #ADCCFF, #FAC3FF 45%);
     height: 100vh;
     width: 100vw;

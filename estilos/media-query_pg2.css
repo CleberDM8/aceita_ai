@@ -9,11 +9,11 @@ desktop: 992px ate 1200px
 grandes telas: acima de 1200px
 
 */
+
 *{
     font-family: "Dancing Script", Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
 @media screen and (min-width: 830px) {
@@ -33,33 +33,37 @@ grandes telas: acima de 1200px
         height: 260px;
         left: 50%;
         top: 50%;
-
-        transform: translate(72%, 5%);
-
+        transform: translate(72%, -5%);
     }
 
     div#principal_pg2 > p{
         text-align: center;
+        font-size: 1.9em ;
+        margin: -20px;
     }
     
     section#rede_social{
         text-align: left;
     }
 
-    section#rede_social > a > img{
-        margin: 10px;
+    section#rede_social > a{
         display: block;
-        width: 50px;
-        height: 50px;
-        background-color: #8fe7fd00; 
-        border-radius: 50px;
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.589);
-        
+        margin: 15px 10px 50px 5px;
+        height: 20px;
+        width: 5px;
     }
 
+    section#rede_social img{
+        text-align: left;
+        width: 50px;
+        margin: 10px;
+        border-radius: 50%;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.589); 
+    }
+    
     section#rede_social img:hover{
         border: 2px solid white;
-        
         transition: transform 0.3s;
         transform: translate(2px, -2px);
     
